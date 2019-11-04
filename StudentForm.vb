@@ -160,7 +160,7 @@ Public Class StudentForm
 
     End Sub
     Private Function GetConnection() As MySqlConnection
-        Dim dbCon = New MySqlConnection("Server=127.0.0.1;Database=student;Uid=root;Pwd=''")
+        Dim dbCon = New MySqlConnection("Server=;Database=student;Uid=;Pwd=")
         dbCon.Open()
         Return dbCon
     End Function
